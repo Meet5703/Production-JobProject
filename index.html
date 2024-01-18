@@ -52,19 +52,24 @@
     <script type="module" src="/src/main.jsx"></script>
 
     <script>
-      var toggleBtn = document.getElementById("toggle");
-      var collapseMenu = document.getElementById("collapseMenu");
+      document.addEventListener("DOMContentLoaded", function () {
+        var toggleBtn = document.getElementById("toggle");
+        var collapseMenu = document.getElementById("collapseMenu");
 
-      function handleClick() {
-        if (collapseMenu.style.display === "block") {
-          collapseMenu.style.display = "none";
-        } else {
-          collapseMenu.style.display = "block";
+        function handleClick() {
+          if (collapseMenu.style.display === "block") {
+            collapseMenu.style.display = "none";
+          } else {
+            collapseMenu.style.display = "block";
+          }
         }
-      }
 
-      toggleBtn.addEventListener("click", handleClick);
+        if (toggleBtn) {
+          toggleBtn.addEventListener("click", handleClick);
+        }
+      });
     </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
   </body>
 </html>

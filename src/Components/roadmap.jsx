@@ -13,10 +13,10 @@ const Roadmap = ({ title, content, content2 }) => {
           {content2}
         </p>
       </div>
-      <div className="container items-center ml-8">
-        <div className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
+      <div className="container items-center md:ml-8">
+        <div className="flex flex-col scale-90 md:grid grid-cols-9  p-2 text-blue-50">
           {/* <!-- left --> */}
-          <div className="flex flex-row-reverse md:contents">
+          <div className="flex flex-row-reverse mr-6 md:contents">
             <div className="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
               <h3 className="font-semibold text-lg mb-1">Lorem ipsum</h3>
               <p className="leading-tight text-justify">

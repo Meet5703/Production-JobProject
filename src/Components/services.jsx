@@ -8,13 +8,13 @@ const ServiceCard = () => {
           YOUR <span className="text-[rgb(109,150,240)]">EXPECTATIONS</span>
         </h1>
         <span className="bg-blue-600 p-[1px] w-1/2"></span>
-        <p className="text-sm lg:text-xl">
+        <p className="text-sm lg:text-xl text-justify">
           With Helix Tech-IT Solution, you get to experience a unique journey
           that starts along with learning and upgrading your skills through
           staffing solutions which will start with resume building and will end
           up with you landing a job at your dream company.
         </p>
-        <p className="text-sm lg:text-xl">
+        <p className="text-sm lg:text-xl text-justify">
           Keeping in mind current market needs and your knowledge, we will help
           you to get whole detailed IT training through which you can get hold
           of all the current trends which will help you to keep up with

@@ -5,9 +5,9 @@ import { useParams } from "react-router-dom";
 function Democard() {
   const { courseid } = useParams();
   return (
-    <section className="py-6 bg-gray-200 mt-16 text-black">
-      <div className="grid grid-cols-12 w-screen px-10 mx-auto lg:px-8">
-        <div className="col-span-12 flex flex-col justify-around md:col-span-8 md:py-0 md:px-3 ml-5">
+    <section className="py-6 bg-gray-200 text-black">
+      <div className="grid grid-cols-12 w-screen mt-20 px-10 mx-auto lg:px-8">
+        <div className="col-span-12 flex flex-col  justify-around md:col-span-8 md:py-0 md:px-3 ml-5">
           <h1 className="text-4xl font-bold">
             {courseid}{" "}
             <span className="text-blue-600 font-semibold">COURSE</span>

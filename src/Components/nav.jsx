@@ -119,7 +119,7 @@ const Navigation = () => {
                 onClick={() => {
                   setMegaMenu1Open(false);
                   setMegaMenu2Open(false);
-                  setMegaMenu3Open(!megaMenu2Open);
+                  setMegaMenu3Open(!megaMenu3Open);
                 }}
               >
                 Insights{" "}

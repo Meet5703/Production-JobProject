@@ -66,6 +66,19 @@
           toggleBtn.addEventListener("click", handleClick);
         }
       });
+      document.addEventListener("click", function (event) {
+        var toggleBtn = document.getElementById("toggle");
+        var collapseMenu = document.getElementById("collapseMenu");
+
+        if (
+          toggleBtn &&
+          collapseMenu &&
+          !toggleBtn.contains(event.target) &&
+          !collapseMenu.contains(event.target)
+        ) {
+          collapseMenu.style.display = "none";
+        }
+      });
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
